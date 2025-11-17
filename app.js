@@ -51,7 +51,7 @@ st.set_page_config(page_title="Data Cleaner + Live Editor", layout="wide")
 # ----------------------
 # Example form:
 # https://docs.google.com/spreadsheets/d/1AbcDEfgHIjKlmnopQRsTUvwXyz0123456789/edit#gid=0
-BLACKLIST_SHEET_LINK = "REPLACE_WITH_YOUR_GOOGLE_SHEET_LINK"
+BLACKLIST_SHEET_LINK = "https://docs.google.com/spreadsheets/d/11s1ImpN4piWLByRKwolTyGGILVPfR5Us4_66ceXAlLQ/edit?usp=sharing"
 
 # Unique keys (column names expected in BOTH the uploaded file and the blacklist)
 KEY_COMPANY = "Company Name"  # recommended header in your uploaded sheet
